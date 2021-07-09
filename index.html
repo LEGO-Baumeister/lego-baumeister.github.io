@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <script>
+      MathJax = {
+        options: {
+          enableMenu: false,
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>e/m-Bestimmung</h1>
+    <h2>nach Busch</h2>
+    <h3>Einleitung</h3>
+    <p>
+      Unter der spezifischen Ladung eines Elektrons versteht man in der Physik
+      das Verhältnis \(\frac{e}{m}\), wobei \(e\) die Elementarladung und m die
+      Masse des Elektrons ist. Die spezifische Ladung ist insofern interessant,
+      dass mit ihr und mit der Ladung eines Elektrons, die durch den
+      „Milikan-Versuch“ bestimmt werden kann, es möglich ist, die Masse eines
+      Elektrons zu berechnen. Außerdem war die Bestimmung der spezifischen
+      Ladung ein wichtiger Schritt bei der Entdeckung des Elektrons. Für die
+      Bestimmung der spezifischen Ladung eines Elektrons gibt es verschiedene
+      Vorgehensweisen. Eine davon ist die Methode des Physikers Hans Busch. Es
+      werden Elektronen innerhalb einer Braun’schen Röhre in ein homogenes
+      elektrisches Feld eines Plattenkondensators geschossen. Dieser lenkt die
+      Elektronen ab, sodass sie schräg in Richtung eines Leuchtschirmes fliegen.
+      Der gesamte Aufbau befindet sich innerhalb einer Spule, die ein Magnetfeld
+      erzeugt. Wenn die Elektronen nicht durch das elektrische Feld abgelenkt
+      würden, dann würde das Magnetfeld keinen Einfluss auf die Flugbahn der
+      Elektronen haben. Da allerdings die Elektronen zuerst durch den
+      Plattenkondensator, je nach Versuchsaufbau nach oben oder nach unten bzw.
+      nach rechts oder nach links abgelenkt werden, lässt sich die Flugbahn der
+      Elektronen in zwei unterschiedliche Komponenten unterteilen: Die Eine
+      parallel zum Boden in Richtung des Leuchtschirms und die Zweite senkrecht
+      zu den Feldlinien des Magnetfelds der Spule. Aus diesem Grund wirkt auf
+      das Elektron, bzw. nur auf die zur Spule senkrechte Komponente der
+      Bewegung die Lorentzkraft. Diese Kraft lenkt die Elektronen so ab, dass
+      eine Schraubenbahn entsteht. Diese Schraubenbahn setzt sich aus der
+      Kreisbewegung parallel zum Schirm, verursacht durch die Lorentzkraft und
+      aus der Vorwärtsbewegung in Richtung des Schirms, parallel zu der Richtung
+      der Feldlinien der Spule, zusammen. Das Ziel dieser Facharbeit ist es, die
+      Funktionsweise und den Aufbau des Versuches zu beschreiben und
+      experimentell durch Messungen die spezifische Ladung eines Elektrons zu
+      bestimmen. Außerdem werden in der Theorie auch Protonen und Myonen
+      betrachtet. Abschließend wird ein Vergleich zu der aus dem Unterricht
+      bekannten Methode mit dem Fadenstrahlrohr gezogen.
+    </p>
+    <h3>1 Historie</h3>
+    <h4>1.1 Person</h4>
+    <p>
+      Begründer des Experimentes ist Hans Busch. Er wurde am 27. Februar 1884 in
+      Jüchen im Rheinland geboren. Von 1904 bis 1911 studierte er Physik,
+      angewandte Physik und angewandte Elektrotechnik in Göttingen. Er
+      promovierte dort in Philosophie und wechselte an die Universität Jena, wo
+      er als Dozent tätig war und den Versuch zur Bestimmung der spezifischen
+      Ladung entwickelte und an der Schraubenbahn von Kathodenstrahlen im
+      magnetischen Feld forschte. Später wechselte er an die Technische
+      Universität Berlin und 1930 an die Technische Hochschule in Darmstadt. Er
+      verstarb am 16. Dezember 1973 in Darmstadt.
+    </p>
+    <h4>1.2 Versuch</h4>
+    <p>
+      Noch bevor das Elektron überhaupt entdeckt worden war, gelang es schon
+      1890 Arthur Schuster mit einem Versuchsaufbau, der als Vorläufer des
+      Fadenstrahlrohres gilt, die spezifische Ladung der Elektronen zu
+      bestimmen. Der Physiker Joseph John Thomson war schließlich 1897 in der
+      Lage durch unterschiedliche Versuche mit Kathodenstrahlen das Elektron als
+      Elementarteilchen zu entdecken und einen neuen, näher an dem heutigen
+      liegenden Wert für das Verhältnis \(\frac{e}{m}\) zu bestimmen. Zu Beginn
+      des 20. Jahrhunderts wurden schließlich weitere Methoden zur Bestimmung
+      der spezifischen Ladung entwickelt. Darunter auch die Methode mit dem
+      Fadenstrahlrohr, welche z. B. im Physik-Unterricht genutzt wird. Die in
+      dieser Facharbeit behandelte Methode wurde von Prof. Dr. phil. Hans Walter
+      Hugo Busch das erste Mal im Jahre 1922 durchgeführt. Es war zu diesem
+      Zeitpunkt eine neue Methode, die laut eigener Aussage grundsätzlich für
+      den Unterricht geplant war: „Vor einiger Zeit habe ich eine Methode der
+      e/m-Bestimmung angegeben […], die – ursprünglich nur zu Unterrichtszwecken
+      ausgearbeitet – sich im Laufe der Versuche als sehr geeignet zu
+      Präzisionsmessungen erwies. […]“
+    </p>
+    <h3>2 Masse</h3>
+    <p>
+      Wenn in der Physik von Masse gesprochen wird, unterscheidet man
+      grundsätzlich zwischen zwei unterschiedlichen Definitionen. Träge Masse
+      wird so definiert, dass ein Körper nach dem ersten Newtonschen Axiom
+      seinen Bewegungszustand nur unter äußerer Einwirkung einer Kraft ändert,
+      wobei der Bewegungszustand sowohl die Richtung und Geschwindigkeit
+      beinhaltet. Als Messverfahren für die träge Masse dient eine
+      Luftkissenbahn, auf der Gleiter beschleunigt werden. „Eine konstante
+      Einwirkung wird dadurch erreicht, dass stets derselbe Antriebskörper
+      verwendet wird. Antriebskörper und Gleiter bilden einen Zug wie eine
+      Lokomotive mit Waggons – anzutreiben ist dabei der gesamte Zug. Zwei Züge
+      haben die gleiche träge Masse, wenn sie jeweils bei gleichem
+      Antriebskörper die gleiche Beschleunigung erfahren.“ Im Gegensatz dazu ist
+      schwere Masse so definiert, dass zwischen zwei Körpern Gravitation
+      herrscht. „Die Anziehung macht sich als Schwere eines Körpers bemerkbar.
+      Die Schwere eines Körpers kann aber nur wahrgenommen werden, wenn sich ein
+      zweiter Körper in seiner Nähe befindet. Dieser zweite Körper kann
+      beispielsweise die Erde oder der Mond sein.“ Als Messverfahren für die
+      schwere Masse eignet sich eine Balkenwaage; ist die Waage im
+      Gleichgewicht, so haben die Körper auf beiden Seiten der Waage die gleiche
+      Masse. Die schwere Masse und die träge Masse eines Körpers sind gleich
+      groß. Beide werden in Kilogramm (kg) gemessen. Das Kilogramm gehört zu den
+      SI-Einheiten und wird mittlerweile über Naturkonstanten definiert. Da mit
+      der spezifischen Ladung eines Elektrons \(\frac{e}{m}\) auch die Masse
+      bestimmt werden kann (Voraussetzung hierfür ist, dass die Elementarladung
+      bereits bekannt ist, z. B. durch den Milikan-Versuch), ist es fraglich, ob
+      in dem vorliegenden Versuch träge oder schwere Masse nachgewiesen wird. Da
+      man Elektronen schlecht auf eine Balkenwaage legen kann, bestimmt man die
+      träge Masse eines Elektrons in Versuchen wie diesem hier, oder mit dem
+      Fadenstrahlrohr. Bei beiden Versuchen werden Elektronen beschleunigt, was
+      auch auf die träge Masse hindeutet. Außerdem wird die spezifische Ladung
+      auch als Verhältnis zwischen Elementarladung e und träger Masse m
+      definiert.
+    </p>
+    <h3>3 Der Versuch</h3>
+    <h4>3.1 Idee</h4>
+    <p>
+      Eine wichtige Gegebenheit für den Versuch ist die Erkenntnis, dass
+      geladene Teilchen, in diesem Experiment Elektronen, sowohl im elektrischen
+      als auch im magnetischen Feld abgelenkt werden. Nun ist die Grundidee,
+      dass „[ein] in einem elektrischen Feld […] beschleunigtes Elektron mit der
+      (negativen) Ladung e und der Masse m […] beim Auftreffen auf die positive
+      Platte eine kinetische Energie [besitzt]“ . Dies lässt sich mathematisch
+      so ausdrücken: \(\frac{1}{2}mv^2={eU}_a\), wobei \(U_a\) die
+      Beschleunigungsspannung, \(e\) die Elementarladung, \(v\) die
+      Geschwindigkeit des Elektrons nach der Beschleunigung, und m die Masse des
+      Elektrons ist. Durch Umformung erhält man: \(\frac{e}{m}=\frac{v²}{2Ua}\)
+      mit dieser Gleichung kann nun die spezifische Ladung bestimmt werden.
+      Allerdings ist es sehr aufwendig und schwierig die Geschwindigkeit des
+      Elektrons zu messen. Daher wird um die Kathodenstrahlröhre eine lange
+      Spule geschoben, deren Achse mit der der Kathodenstrahlröhre
+      übereinstimmt. Durch einen Ablenk-Kondensator in der Braun’schen Röhre
+      werden die Elektronen schräg mit einem Winkel \(\alpha\) in das
+      näherungsweise homogene magnetische Feld der langen Spule geschossen. Die
+      Bewegung des Kathodenstrahls lässt sich nun in zwei Komponenten aufteilen:
+      \(v_p\) ist die Bewegung, die parallel zur Achse in Richtung des
+      Leuchtschirms stattfindet. Die zweite Bewegungs-Komponente ist \(v_s\),
+      welche senkrecht zur Achse der Kathodenstrahlröhre und damit auch
+      senkrecht zu den Feldlinien der Spule verläuft. Auf die
+      Bewegungskomponente, die zu der Achse senkrecht ist, wirkt also die
+      Lorentzkraft: Ursache ist die Bewegung der Elektronen senkrecht zum
+      Vermittler, den Feldlinien der Spule, die um die Kathodenstrahlröhre
+      gestülpt ist und die Wirkung ist die Lorentzkraft, die dazu führt, dass
+      das Elektron eine Kreisbewegung macht. Dabei ist nicht zu vernachlässigen,
+      dass \(v_p\) weiterhin in Richtung des Leuchtschirms fliegt. Die beiden
+      Bewegungen überlagern sich also und es kommt dazu, dass sich die
+      Elektronen in einer Schraubenbahn bewegen. , Die Zentripetalkraft
+      \(F_Z=\frac{m{v_s}^2}{r}\) der Kreisbewegung ist die Lorentzkraft
+      \(F_L=ev_sB\). Es wirkt keine resultierende Kraft. Wenn die Umlaufzeit
+      \(T\) und die Zeit \(t\), die vom Elektron benötigt wird, um von der Mitte
+      des Plattenkondensators bis zum Leuchtschirm zu fliegen, gleich sind. Nun
+      muss die Gleichung noch nach \(\frac{e}{m}\) umgestellt werden. Dieses
+      Verhältnis lässt sich schließlich berechnen, wenn die anderen Größen
+      bekannt sind. Die Umstellungen der Gleichungen wird im folgenden
+      Unterkapitel genau erläutert.
+    </p>
+    <h5>3.1.1 Erläuterung durch Gleichungen</h5>
+    <p>
+      Wie bereits erwähnt, ist die Zentripetalkraft \(F_Z\) gleich der
+      Lorentzkraft \(F_L\), das bedeutet, dass beide Kräfte gleichgesetzt werden
+      können: $$\frac{mvs²}{r}=evsB$$ Diese Formel lässt sich nun so umstellen,
+      dass man den Radius der Kreisbewegung der Schraubenbahn erhält:
+      $$r=\frac{mv_s}{eB}$$ oder wenn \(\frac{e}{m}\) erhalten bleiben soll:
+      $$r=\frac{v_s}{\frac{e}{m}B}$$ Die Umlaufzeit dieser Kreisbewegung mit dem
+      Radius \(r\) ist: $$T=\frac{2\pi r}{v_s}$$ Für \(r\) lässt sich nun der
+      eben erwähnte Term einsetzen, sodass man zu Folgendem kommt:
+      $$T=\frac{\frac{2\pi v_s}{\frac{e}{m}B}}{v_s}$$ Dies lässt sich wiederum
+      vereinfachen: $$T=\frac{2\pi}{\frac{e}{m}B}=\frac{2\pi m}{eB}$$ Dabei
+      fällt auf, dass sich \(v_s\) aus der Gleichung rauskürzen lässt, was
+      bedeutet, dass die Umlaufzeit des Elektrons in der Kreisbewegung
+      unabhängig von der Geschwindigkeitskomponente senkrecht zu der Achse der
+      Kathodenstrahlröhre ist. Allerdings ist die Umlaufzeit abhängig von dem
+      Verhältnis \(\frac{e}{m}\). Die Zeit die ein Elektron benötigt um von der
+      Mitte der Kondensatorplatten, bis zum Leuchtschirm zu fliegen ist, wenn
+      \(l\) die direkte Strecke von Mitte der Platten bis zum Schirm ist:
+      $$t=\frac{l}{v_a}$$ Wenn der Leuchtpunkt seine Fokussierung erreicht und
+      so aussieht wie ohne elektrisches Feld (\(E=0\)), dann ist die Umlaufzeit
+      \(T\) gleich der Zeit \(t\). Das Elektron vollzieht also eine vollständige
+      Umrundung auf der Schraubenbahn. Daraus folgt \(t=T\), also:
+      $$\frac{l}{v_a}=\frac{2\pi}{\frac{e}{m}B}$$ Jetzt setzt man für \(v_a\)
+      die Gleichung zur Berechnung der Geschwindigkeit nach Beschleunigung im
+      Wehneltzylinder ein: $$\frac{l}{\sqrt{2\frac{e}{m}U_a}}=\frac{2\pi}{eB}$$
+      Durch quadrieren erhält man:
+      $$\frac{l²}{2\frac{e}{m}U_a}=\frac{4π²}{e²B²}$$ Diese Gleichung kann man
+      schließlich nach dem gesuchten Verhältnis \(\frac{e}{m}\) auflösen:
+      $$\frac{e}{m}=\frac{8π²U_a}{B²I²}$$
+    </p>
+    <h4>3.2 Aufbau</h4>
+    <p>
+      In der Theorie ist der Versuchsaufbau relativ simpel. Es wird eine
+      Kathodenstrahlröhre benötigt, die aus Kathode und Anode besteht, zwischen
+      denen eine Beschleunigungsspannung angelegt werden kann, einen
+      Ablenk-Plattenkondensator und ein Leuchtschirm, auf dem die
+      Elektronenstrahlen sichtbar gemacht werden können. Außerdem wird eine
+      lange Spule benötigt, an welche auch eine Spannung angelegt werden kann,
+      sodass Strom fließt und ein Magnetfeld entsteht. Wie bereits erwähnt, muss
+      dabei die Achse der Spule mit der der Braun‘schen Röhre übereinstimmen.
+      Schließlich wird noch ein Spannungsmessgerät benötigt, das parallel zur
+      Beschleunigungsspannung geschaltet wird, um diese zu messen. Um den Strom,
+      der durch die Spule fließt, zu messen, wird ein Stromstärkemessgerät in
+      Reihe mit der Spule geschaltet.
+    </p>
+    <h3>3.3 Durchführung</h3>
+    <h4>3.3.1 Theorie</h4>
+    <p>
+      Sowohl eine Beschleunigungsspannung an der Anode als auch eine
+      Heizspannung an der Kathode, welche von keiner Bedeutung für die
+      Bestimmung der spezifischen Ladung ist und deren einziger Zweck es ist,
+      das Material zu erhitzen, sodass sich Elektronen herauslösen, werden
+      angelegt. Außerdem muss eine Spannung an dem Ablenk-Kondensator angelegt
+      werden, um ein elektrisches Feld zur Ablenkung der Elektronen zu haben.
+      Diese ist etwa \(\frac{1}{10}\) so groß wie die Beschleunigungsspannung.
+      Zuletzt muss noch eine Spannung an der Spule angelegt werden, damit sich
+      um diese ein Magnetfeld aufbaut. Wenn alles so eingestellt ist, dann
+      müsste auf dem Schirm ein Leuchtpunkt, bzw. ein „Leuchtfleck“ zu sehen
+      sein. Die Stromstärke der Spule wird nun so eingestellt, dass man klar
+      erkennbar einen gut fokussierten Leuchtpunkt sehen kann. Ist dies der
+      Fall, ist das Magnetfeld B so eingestellt, dass die Elektronen in ihrem
+      Flug auf der Schraubenbahn einen vollen Kreis fliegen. Das heißt: \(t=T\).
+      Nun werden folgende Daten gemessen, um \(\frac{e}{m}\) berechnen zu
+      können: Die Beschleunigungsspannung \(U_a\), die Strecke \(l\), von der
+      Mitte der Kondensatorplatten bis hin zum Leuchtschirm und zur Berechnung
+      des Magnetfeldes \(B\), die Stromstärke \(I\). (Es wird davon ausgegangen,
+      dass die Induktionskonstante \(\mu_0\), die Windungszahl \(n\) und die
+      Länge der Spule \(L\) bekannt sind, bzw. schon vor der Durchführung
+      gemessen worden sind.)
+    </p>
+    <h4>3.3.2 Praxis</h4>
+    <p>
+      Die eigene praktische Durchführung unterscheidet sich bereits im Aufbau.
+      Es wurden teilweise andere Geräte verwendet als in der Anleitung
+      angegeben. Zusätzlich wurde ein Kippgerät verwendet. Dieses wird
+      grundsätzlich nicht für die Durchführung benötigt und ändert bloß die
+      Darstellungsweise der Elektronenstrahlen auf dem Leuchtschirm. Bei der
+      Durchführung trat außerdem die Komplikation auf, dass auf Grund der
+      Diskrepanzen zwischen Anleitung und praktischem Versuchsaufbau nicht
+      ersichtlich war, wo das Spannungsmessgerät hätte angeschlossen werden
+      sollen. Da das Messbeispiel der Anleitung (wie weiter unten zu sehen) für
+      alle Messungen den gleichen Wert von 1860V angibt, wird davon ausgegangen,
+      dass die Spannung nicht einstellbar ist und nur die Stromstärke der Spule
+      variiert werden kann.
+    </p>
+    <h4>3.4 Messreihe</h4>
+    <p>
+      Im Folgenden sind zwei Messreihen zu sehen, wobei Messreihe (A) ein
+      Messbeispiel der Versuchsanleitung ist und Messreihe (B) die Daten der
+      eigenen Messung beinhaltet:
+    </p>
+    <ul>
+      <li>
+        <table>
+          <tr>
+            <th>Messung Nr.</th>
+            <th>Spannung \(U\) in V</th>
+            <th>Stromstärke \(I\) in mA</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>1860</td>
+            <td>78,0</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>1860</td>
+            <td>78,0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>1860</td>
+            <td>78,5</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>1860</td>
+            <td>77,5</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>1860</td>
+            <td>77,0</td>
+          </tr>
+        </table>
+        (A)
+      </li>
+      <li>
+        <table>
+          <tr>
+            <th>Messung Nr.</th>
+            <th>Spannung \(U\) in V</th>
+            <th>Stromstärke \(I\) in mA</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>1860</td>
+            <td>750</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>1860</td>
+            <td>745</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>1860</td>
+            <td>740</td>
+          </tr>
+        </table>
+
+        (B)
+        <p>Wie bereits oben erwähnt wurde die Spannung nicht gemessen.</p>
+      </li>
+    </ul>
+    <h4>3.5 Deutung</h4>
+    <p>
+      Setzt man in die Gleichung \(\frac{e}{m}=\frac{8π²U_a}{B²I²}\) mit
+      \(B=\mu_0·\frac{n⋅I}{L}\) den Mittelwert der Messergebnisse der
+      Stromstärke ein, so wie es die Versuchsanleitung vorschlägt , so erhält
+      man für die Messreihe (A) mit einem durchschnittlichen Wert \(I=77,8mA\)
+      für \(\frac{e}{m}\approx1,7617·1011\frac{C}{kg}\). Für die Messreihe (B)
+      erhält man mit einem Mittelwert von \(I=745mA\) für die spezifische Ladung
+      \(\frac{e}{m}\approx1,97096·109\frac{C}{kg}\). Der aktuelle Literaturwert
+      für die spezifische Ladung ist ungefähr
+      \(\frac{e}{m}\approx1,75882·1011\frac{C}{kg}\). Für (A) liegt also eine
+      prozentuale Abweichung von ungefähr 1,6% vor. Für (B) ist es gar nicht
+      mehr sinnvoll eine prozentuale Abweichung auszurechnen, da diese über 90%
+      liegt und damit das Ergebnis sicher falsch ist. Die eigene Messreihe
+      eignet sich also nicht für die Deutung und es wird unter 3.6 Sonstiges
+      erneut auf den Fehler eingegangen.
+    </p>
+    <h4>3.6 Sonstiges</h4>
+    <p>
+      Der durch das Experiment festgestellte Wert von
+      \(\frac{e}{m}\approx1,97096·109\frac{C}{kg}\) ist deutlich kleiner als der
+      aktuelle Literaturwert. Das kann verschiedene Ursachen haben. Eine davon
+      ist die wahrscheinliche Abweichung der Beschleunigungsspannung, die nicht
+      messbar war, weshalb von einer konstant eingestellten Spannung von 1860V
+      ausgegangen wird. Außerdem ist die Spule, die für die experimentelle
+      Durchführung verwendet wurde, mit einer Länge von ungefähr 26cm, um 10cm
+      kürzer als die Spule, die in der Anleitung angegeben wird. Dementsprechend
+      ist es auch gut möglich, dass die Windungszahl eine andere als die in der
+      Anleitung angegebene ist.
+    </p>
+    <h3>4 Spezifische Ladung anderer Teilchen</h3>
+    <p>
+      Dieser Abschnitt beschäftigt sich ausschließlich mit der theoretischen
+      Durchführung des Versuches zur Bestimmung der spezifischen Ladung anderer
+      Teilchen. Das Grundprinzip bleibt gleich: Die Teilchen müssen beschleunigt
+      und schräg in das Magnetfeld der Spule geschossen werden, sodass sich die
+      Bewegung in eine Komponente senkrecht zu der Achse der Spule \(v_s\) und
+      in eine zweite Komponente parallel zur Spule \(v_p\) aufteilen lassen
+      kann. Auf die Teilchen wirkt dann die Lorentzkraft, unabhängig von ihrer
+      Ladung. Die Formel zur Berechnung der spezifischen Ladung bleibt auch
+      grundsätzlich gleich. Das Einzige was sich ändert ist die Formel zur
+      Berechnung der Geschwindigkeit \(v_a\).
+    </p>
+    <h4>4.1 Protonen</h4>
+    <p>
+      Die spezifische Ladung eines Protons ist aktuell circa:
+      \(\frac{e}{m_p}\approx9,57883·107\frac{C}{kg}\). „Um Protonen zu bekommen,
+      erzeugt man zunächst freie Elektronen per Glühemission […], beschleunigt
+      diese und schießt sie auf Wasserstoff-Gas. Dadurch werden die äußeren
+      Elektronen aus den Gasatomen entfernt, zurück bleiben positiv geladene
+      Protonen.“ Diese Protonen werden dann nach gleichbleibendem Prinzip in
+      Richtung des Leuchtschirms beschleunigt. Dabei lässt sich ihre
+      Geschwindigkeit mit der gleichen Formel wie bei der Beschleunigung von
+      Elektronen berechnen: \(v_a=\sqrt{2\frac{e}{m}U_a}\). Da allerdings
+      Protonen positiv geladen sind, werden sie von der Lorentzkraft in die
+      entgegengesetzte Richtung abgelenkt, im Vergleich zu der Ablenkung der
+      Elektronen. Am Ergebnis ändert sich nur das Vorzeichen.
+    </p>
+    <h4>4.2 Myonen</h4>
+    <p>
+      Myonen sind Elementarteilchen, die Elektronen ähneln. Sie haben die
+      gleiche Ladung wie Elektronen, besitzen allerdings eine deutlich größere
+      Masse (ungefähr 200-mal größer). Dementsprechend ist ihre spezifische
+      Ladung auch ungefähr 200-mal kleiner als die eines Elektrons. Theoretisch
+      ist die Methode von Busch auch für Myonen nutzbar, allerdings wäre der
+      praktische Aufwand immens, da große Teilchenbeschleuniger benötigt werden
+      würden. Das wohl größte Problem ist, dass Myonen anders als Elektronen
+      oder Protonen nicht stabil sind und nur eine sehr kurze Lebensdauer von
+      circa zwei Millionstel Sekunden haben.
+    </p>
+    <h3>5 Fazit</h3>
+    <p>
+      Die Methode von Busch zur Bestimmung der spezifischen Ladung von
+      Elektronen ist grundsätzlich ziemlich genau und dennoch relativ simpel. Im
+      Vergleich zum Fadenstrahlrohr, welches aus dem Unterricht bekannt ist,
+      besitzt es den Vorteil, dass nur die Fokussierung eingestellt werden muss.
+      Beim Fadenstrahlrohr ist es nämlich ziemlich schwierig, den Radius des
+      Kreises zu messen, in dem die Elektronen fliegen, da die dazu verschobenen
+      „Regler“ bei gedimmtem Licht verschoben werden müssen und es der Fall sein
+      kann, dass der Kreis durch das gewölbte Glas nur verzerrt erkennbar ist.
+      Dennoch gibt es auch bei dem Versuch nach der Methode von Busch Nachteile.
+      Ein Beispiel wäre die Spule, die das Magnetfeld erzeugt. Das Magnetfeld
+      ist nämlich nicht vollständig homogen und es muss mit einer „effektiven
+      Windungszahl“ gerechnet werden.
+    </p>
+  </body>
+</html>
